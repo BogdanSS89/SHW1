@@ -139,7 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PhoneBook.cpp" />
     <ClCompile Include="SHW1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhoneBook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PhoneBook.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
